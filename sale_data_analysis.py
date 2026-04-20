@@ -30,8 +30,9 @@ sum_arr.append(np.sum(timothy[:, -1]))
 # print(sum_arr)
 
 # Managers vs Sale amt #
-plt.pie(x=sum_arr, labels=managers)
+plt.pie(x=sum_arr, labels=sum_arr)
 plt.title("Managers vs Sale amt")
+plt.legend(managers)
 plt.show()
 
 # Sale amt vs Region #
